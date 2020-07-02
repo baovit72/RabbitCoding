@@ -2,9 +2,9 @@
   "name": "oop-bot",
   "version": "0.0.0",
   "private": false,
-  "scripts": {
+  "scripts": {  
     "start": "node lib/index.js",
-    "debug": "nodemon --inspect ./bin/www --exec babel-node",
+    "debug": "nodemon --inspect ./bin/www --exec babel-node", 
     "build": "babel src -d lib"
   },
   "dependencies": {
