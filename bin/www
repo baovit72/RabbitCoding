@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-const app = require('./app');
+const app = require('../app');
 var debug = require('debug')('oop-bot:server');
 import http from 'http';
 require('dotenv').config();
